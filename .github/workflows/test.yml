@@ -30,4 +30,4 @@ jobs:
     - name: Test imports
       run: |
         python -c "import streamlit; import fastapi; print('✅ Dependencies OK')"
-        python -c "from backend.app.llm_config import get_llm; print('✅ LLM module OK')"
+        python -c "from backend.app.llm_config import UniversalLLMConfig; print('✅ LLM module OK')"
