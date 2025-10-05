@@ -101,8 +101,8 @@ LLM_PROVIDER="google"              # or: openai, anthropic, groq, etc.
 GOOGLE_API_KEY="your-key-here"    # Your API key
 
 # Optional
-MODEL_NAME="gemini-2.0-flash-exp" # Model to use
-TEMPERATURE=0.7                    # Response creativity (0.0-1.0)
+MODEL_NAME="gemini-2.5-flash" # Model to use
+TEMPERATURE=0.2                    # Response creativity (0.0-1.0)
 MAX_TOKENS=4000                    # Maximum response length
 ```
 

@@ -9,7 +9,9 @@ on:
 jobs:
   test:
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
         python-version: ['3.9', '3.10', '3.11']
@@ -21,13 +23,28 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
+        cache: 'pip'
+    
+    - name: Cache pip packages
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cache/pip
+          ~\AppData\Local\pip\Cache
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
     
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+      env:
+        PYTHONIOENCODING: utf-8
     
     - name: Test imports
       run: |
-        python -c "import streamlit; import fastapi; print('✅ Dependencies OK')"
-        python -c "from backend.app.llm_config import UniversalLLMConfig; print('✅ LLM module OK')"
+        python -c "import streamlit; import fastapi; print('[OK] Dependencies loaded successfully')"
+        python -c "from backend.app.llm_config import UniversalLLMConfig; print('[OK] LLM module loaded successfully')"
+      env:
+        PYTHONIOENCODING: utf-8
