@@ -1,0 +1,15 @@
+{
+    "category": "Lexical Resource",
+    "criteria_to_evaluate": [
+      { "point": "Range of Vocabulary", "instruction": "Assess the variety and flexibility of the vocabulary used. Is there an attempt to use less common lexical items?" },
+      { "point": "Precision and Appropriateness", "instruction": "Is the vocabulary used precise and appropriate for the topic? Are there any errors in word choice?" },
+      { "point": "Avoidance of Repetition", "instruction": "Does the writer effectively use synonyms and rephrasing to avoid repeating words and phrases?" },
+      { "point": "Control of Spelling and Word Formation", "instruction": "Are there spelling or word formation errors that impede communication?" }
+    ],
+    "output_format": {
+      "score_out_of_9": "float (e.g., 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0)",
+      "positive_feedback": "string summarizing strengths based on the criteria",
+      "areas_for_improvement": "string summarizing weaknesses based on the criteria",
+      "evidence_from_text": ["example of good vocabulary usage", "example of a spelling error"]
+    }
+  }

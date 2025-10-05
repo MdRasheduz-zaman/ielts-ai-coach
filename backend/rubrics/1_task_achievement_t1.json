@@ -1,0 +1,15 @@
+{
+  "category": "Task Achievement (Task 1)",
+  "criteria_to_evaluate": [
+    { "point": "Cover All Parts", "instruction": "Does the response address all parts of the prompt? Does it accurately describe the visual information provided?" },
+    { "point": "Present an Overview", "instruction": "Is there a clear, concise overview that summarizes the main trends, differences, or stages shown in the data?" },
+    { "point": "Select & Highlight Key Features", "instruction": "Does the writer select and report the most important and relevant key features from the data? Is there a clear trend or pattern identified and supported with figures from the data?" },
+    { "point": "Word Count", "instruction": "The essay has a word count of {word_count}. A full response should be at least 150 words. If the essay is significantly under this count, the Task Achievement score must be penalized as the response cannot be sufficiently developed." }
+  ],
+  "output_format": {
+    "score_out_of_9": "float (e.g., 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0)",
+    "positive_feedback": "string summarizing strengths based on the criteria",
+    "areas_for_improvement": "string summarizing weaknesses based on the criteria",
+    "evidence_from_text": ["quote1 from essay showing a key feature", "quote2 showing the overview"]
+  }
+}

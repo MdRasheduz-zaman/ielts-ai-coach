@@ -1,0 +1,15 @@
+{
+    "category": "Coherence and Cohesion",
+    "criteria_to_evaluate": [
+      { "point": "Logical Organization of Information", "instruction": "Is the information organized logically? Is there a clear overall progression in the argument/description?" },
+      { "point": "Clear Progression of Ideas", "instruction": "Are the ideas easy to follow? Does each paragraph have a clear central topic?" },
+      { "point": "Use of Cohesive Devices", "instruction": "Are linking words, pronouns, and transitions used effectively and appropriately to connect ideas? Is there overuse or underuse of these devices?" },
+      { "point": "Paragraphing", "instruction": "Is the essay well-paragraphed? Does each paragraph have a clear central topic and contribute to the overall response?" }
+    ],
+    "output_format": {
+      "score_out_of_9": "float (e.g., 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0)",
+      "positive_feedback": "string summarizing strengths based on the criteria",
+      "areas_for_improvement": "string summarizing weaknesses based on the criteria",
+      "evidence_from_text": ["example of a good transition", "example of a well-structured paragraph's topic sentence"]
+    }
+  }

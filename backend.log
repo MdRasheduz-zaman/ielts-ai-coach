@@ -1,0 +1,103 @@
+INFO:     Will watch for changes in these directories: ['/Users/md.rasheduzzaman/Downloads/ielts-ai-coach2/ielts-ai-coach']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [31333] using WatchFiles
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1759662313.073914 6388910 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+E0000 00:00:1759662313.080988 6388910 alts_credentials.cc:93] ALTS creds ignored. Not running on GCP and untrusted ALTS is not enabled.
+INFO:     Started server process [31336]
+INFO:     Waiting for application startup.
+2025-10-05 13:05:13,091 - backend.app.main - INFO - Starting IELTS AI Coach API...
+2025-10-05 13:05:13,091 - backend.app.graph_builder - INFO - Creating IELTS evaluation graph...
+2025-10-05 13:05:13,093 - backend.app.graph_builder - INFO - Graph created and compiled successfully
+2025-10-05 13:05:13,093 - backend.app.main - INFO - LangGraph instance created successfully
+INFO:     Application startup complete.
+INFO:     127.0.0.1:57061 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57067 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57068 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57069 - "GET /questions/963753cc120d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57070 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57071 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57072 - "GET /questions/4949aeb10833 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57073 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57075 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57077 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57078 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57079 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57080 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57081 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57082 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57083 - "GET /questions/list HTTP/1.1" 200 OK
+2025-10-05 13:08:21,700 - backend.app.data_manager - INFO - Question saved with ID: 74a45af18559
+INFO:     127.0.0.1:57084 - "POST /questions/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57085 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57086 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57087 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57088 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57090 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57091 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57092 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57093 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57094 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57095 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57096 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57097 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57098 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57099 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57100 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57101 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57102 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57103 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57104 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57105 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57106 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57107 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57108 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57109 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57110 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57111 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57112 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57113 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57114 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57115 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57116 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57117 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57119 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57120 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57121 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57122 - "GET /questions/list HTTP/1.1" 200 OK
+2025-10-05 13:08:57,240 - backend.app.main - INFO - Processing essay evaluation: General Training Task 2, 281 words
+2025-10-05 13:08:57,411 - backend.app.graph_builder - INFO - Routing based on task_type: general training task 2
+2025-10-05 13:08:57,412 - backend.app.graph_nodes - INFO - Starting evaluation: task_response
+2025-10-05 13:09:27,377 - backend.app.graph_nodes - INFO - Successfully evaluated task_response in 29.96s
+2025-10-05 13:09:27,379 - backend.app.graph_nodes - INFO - Starting evaluation: coherence_cohesion
+2025-10-05 13:09:38,685 - backend.app.graph_nodes - INFO - Successfully evaluated coherence_cohesion in 11.31s
+2025-10-05 13:09:38,688 - backend.app.graph_nodes - INFO - Starting evaluation: lexical_resource
+2025-10-05 13:09:54,697 - backend.app.graph_nodes - INFO - Successfully evaluated lexical_resource in 16.01s
+2025-10-05 13:09:54,701 - backend.app.graph_nodes - INFO - Starting evaluation: grammatical_range
+2025-10-05 13:10:07,802 - backend.app.graph_nodes - INFO - Successfully evaluated grammatical_range in 13.10s
+2025-10-05 13:10:07,806 - backend.app.graph_nodes - INFO - Starting report synthesis
+2025-10-05 13:10:33,904 - backend.app.graph_nodes - INFO - Report synthesis completed in 26.10s
+2025-10-05 13:10:33,911 - backend.app.main - INFO - Final state extracted: True
+2025-10-05 13:10:33,912 - backend.app.main - INFO - Evaluation completed successfully in 96.67s
+INFO:     127.0.0.1:57123 - "POST /evaluate HTTP/1.1" 200 OK
+2025-10-05 13:10:33,932 - backend.app.data_manager - INFO - Evaluation saved with ID: 74a45af18559_20251005_131033
+INFO:     127.0.0.1:57130 - "POST /evaluations/save HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57131 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57132 - "GET /evaluations/history/74a45af18559 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57133 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57134 - "GET /evaluations/history/74a45af18559 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57135 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57136 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57137 - "GET /questions/74a45af18559 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57138 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57139 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57140 - "GET /questions/4949aeb10833 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57141 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57143 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57144 - "GET /questions/963753cc120d HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57145 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57146 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57147 - "GET /questions/4949aeb10833 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57148 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57150 - "GET /questions/list HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57157 - "GET /questions/list HTTP/1.1" 200 OK

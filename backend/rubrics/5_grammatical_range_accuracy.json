@@ -1,0 +1,14 @@
+{
+    "category": "Grammatical Range and Accuracy",
+    "criteria_to_evaluate": [
+      { "point": "Range of Grammatical Structures", "instruction": "Does the writer use a mix of simple and complex sentence structures? Is there variety in sentence construction?" },
+      { "point": "Accuracy of Grammar", "instruction": "How frequent are grammatical errors (e.g., subject-verb agreement, tenses, articles)? Do these errors impede communication?" },
+      { "point": "Punctuation and Sentence Control", "instruction": "Is punctuation used correctly? Are there run-on sentences or sentence fragments?" }
+    ],
+    "output_format": {
+      "score_out_of_9": "float (e.g., 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0)",
+      "positive_feedback": "string summarizing strengths based on the criteria",
+      "areas_for_improvement": "string summarizing weaknesses based on the criteria",
+      "evidence_from_text": ["example of a complex sentence", "example of a grammatical error"]
+    }
+  }

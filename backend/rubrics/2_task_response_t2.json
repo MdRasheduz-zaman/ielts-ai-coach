@@ -1,0 +1,15 @@
+{
+    "category": "Task Response (Task 2)",
+    "criteria_to_evaluate": [
+      { "point": "Address All Parts of the Question", "instruction": "Does the response fully address all aspects of the prompt? If it's a two-part question, are both parts covered?" },
+      { "point": "Present a Clear Position", "instruction": "Does the writer present a clear and consistent position or point of view throughout the essay?" },
+      { "point": "Develop Ideas", "instruction": "Are the main ideas well-developed? Are they supported with logical explanations, evidence, and relevant examples?" },
+      { "point": "Word Count", "instruction": "The essay has a word count of {word_count}. A full response should be at least 250 words. If the essay is significantly under this count, the Task Response score must be penalized as the response cannot be sufficiently developed." }
+    ],
+    "output_format": {
+      "score_out_of_9": "float (e.g., 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0)",
+      "positive_feedback": "string summarizing strengths based on the criteria",
+      "areas_for_improvement": "string summarizing weaknesses based on the criteria",
+      "evidence_from_text": ["quote1 showing a well-developed idea", "quote2 stating the main position"]
+    }
+  }

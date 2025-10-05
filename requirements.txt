@@ -1,0 +1,23 @@
+### Core Dependencies
+fastapi==0.115.4
+uvicorn[standard]==0.32.0
+streamlit==1.39.0
+python-dotenv==1.0.1
+pydantic==2.9.2
+requests==2.32.3
+pillow>=10.0.0,<11.0.0
+
+### LangChain & LangGraph Core
+langchain==0.3.7
+langchain-core>=0.3.17,<0.4.0
+langgraph==0.2.45
+langchain-community==0.3.7
+
+### Multi-Provider LLM Support
+langchain-google-genai==2.0.4
+langchain-openai==0.2.8
+langchain-anthropic==0.2.4
+
+### Utilities
+python-multipart==0.0.12
+aiofiles==24.1.0
